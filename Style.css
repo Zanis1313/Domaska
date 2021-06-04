@@ -1,0 +1,13 @@
+body{
+    background-image:url(img/repeat-image.jpg);
+    background-repeat:repeat;
+}
+.frame{
+    background-image:url(img/top-bg.png),
+   url(img/bottom-bg.png),url(img/center-bg.png);
+    background-repeat:no-repeat,no-repeat,repeat;;
+    background-position:top,bottom,center; 
+    width:500px;
+    padding:80px 100px;
+    background-size:contain;
+}
